@@ -1,0 +1,31 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+
+body {
+  font: $main-font;
+  color: $main-color;
+}
+
+navbar {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+.button:hover {
+  filter: alpha(opacity=30);
+  opacity: 0.6;
+  @include transition (all 0.3s ease);
+}
