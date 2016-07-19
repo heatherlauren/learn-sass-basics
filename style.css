@@ -1,0 +1,25 @@
+body {
+  font: Helvetica, sans-serif;
+  color: #F4F4F4; }
+
+navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+navbar li {
+  display: inline-block; }
+navbar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none; }
+
+.button:hover {
+  filter: alpha(opacity=30);
+  opacity: 0.6;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/*# sourceMappingURL=style.css.map */
