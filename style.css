@@ -22,4 +22,7 @@ navbar a {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
+p {
+  color: red; }
+
 /*# sourceMappingURL=style.css.map */

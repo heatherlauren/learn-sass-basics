@@ -29,3 +29,7 @@ navbar {
   opacity: 0.6;
   @include transition (all 0.3s ease);
 }
+
+p {
+  color: red;
+}
